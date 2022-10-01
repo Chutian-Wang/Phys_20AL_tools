@@ -1,5 +1,4 @@
 import math
-import matplotlib.pyplot as plt
 
 print("Using RMSD = sqrt( sum( (xi - xbar)^2 ) / (N - 1) )")
 inputstr = input("Input data below, separated by a space.\n")
