@@ -14,6 +14,7 @@ xbar = sum(dataset) / len(dataset)
 rmsd = math.sqrt(sum([(x - xbar) ** 2 for x in dataset]) / (len(dataset) - 1))
 print(f"\nDataset avg. {xbar}")
 print(f"RMSD         {rmsd}")
+print(f"sigma / xbar {rmsd / xbar}")
 print("Dataset------------------------")
 for x in enumerate(dataset):
     print(f"{x[0]}            {x[1]}")
